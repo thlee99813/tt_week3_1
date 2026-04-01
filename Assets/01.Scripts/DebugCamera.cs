@@ -10,11 +10,6 @@ public class DebugCamera : MonoBehaviour
     public int CurrentCameraIndex { get; private set; }
 
 
-    private void Start()
-    {
-        ActivateCamera(0);
-
-    }
     private void Update()
     {
 
